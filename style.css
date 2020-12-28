@@ -1,0 +1,13 @@
+.line{
+  display: flex;
+}
+.line > * {
+  margin: 0;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.wrapper > button{
+  align-self: flex-start;
+}
